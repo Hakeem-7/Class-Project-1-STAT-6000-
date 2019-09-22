@@ -1,0 +1,27 @@
+---
+title: "Hw_1"
+author: "Akeem Ajede"
+date: "9/21/2019"
+output: pdf_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## R Markdown
+$\Sigma (x^2-\mu^2)$
+
+```{r}
+College = read.csv("College.csv")
+```
+
+## Including Plots
+
+You can also embed plots, for example:
+
+```{r pressure, echo=FALSE}
+plot(pressure)
+```
+
+Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.
